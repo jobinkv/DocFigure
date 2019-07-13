@@ -26,7 +26,7 @@ for item in jsnFiles:
     print ('Dowloading the file')
     subprocess.call(dwndr)
     print ('Convert the pdf file to image')
-    subprocess.call(['java','-jar', '/mnt/1/pdffigureAnnotation/pdfbox-app-2.0.9.jar', 
+    subprocess.call(['java','-jar', 'pdfbox-app-2.0.14.jar', 
                             'PDFToImage', '-dpi', '144', dwndr[-1]])
     regions = data['region']
     fileName = dwndr[-1].split('.pdf')[0]
