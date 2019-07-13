@@ -13,6 +13,10 @@ Convert the all pdf file to image file.
 Download [pdfbox](http://mirrors.estointernet.in/apache/pdfbox/2.0.14/pdfbox-app-2.0.14.jar)
 
 ```javascript
-
+git clone https://github.com/jobinkv/DocFigure.git
+cd DocFigure
+wget http://mirrors.estointernet.in/apache/pdfbox/2.0.14/pdfbox-app-2.0.14.jar
+python readAnotation.py
 
 ```
+It will create a folder sub images in a folder `images`
