@@ -29,5 +29,5 @@ Trained model [link](https://iiitaphyd-my.sharepoint.com/:u:/g/personal/jobin_kv
 To test the trained model run
 
 ```javascript
-python 
+python testTrainedModel.py --trainedFigClassModel '/downloded/path/to/epoch_9_loss_0.04706_testAcc_0.96867_X_resnext101_docSeg.pth' --inputImage '/path/of/inputimage/for/testing'
 ```
