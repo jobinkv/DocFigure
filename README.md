@@ -25,3 +25,9 @@ It will create a folder sub images in a folder `images`
 ## Trained Models
 
 Trained model [link](https://iiitaphyd-my.sharepoint.com/:u:/g/personal/jobin_kv_research_iiit_ac_in/EYe6eejq2FhLjv8qNVoWxgwBK9aNs-aJgqem1ty6lb9-Zg?e=vdjLmP)
+
+To test the trained model run
+
+```javascript
+python 
+```
